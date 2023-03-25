@@ -6,7 +6,7 @@ We have two .dat files :
 ------>"metadata_Thiers13.dat"<--------, wich is a list of all the ids of the student in column 1, column 2 is their class, column 2 their gender. 
 ------>tij_Thiers13.dat"<-------, which is the list of all interactions that occured between 2 ids ( the first two columns) during five days, the 3rd colun is the C-time in seconds in which the interaction occured. An interaction is counted every 20 seconds. 
 
-2)FIRST SCRIPT -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## FIRST SCRIPT -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------->triinitial.py<--------------- 
 an sql program that counts the number of interactions between 2 ids detailed in the "tij_Thiers13.dat" file. 
 The counted interactions are stocked in the file "tij_tri.dat"
